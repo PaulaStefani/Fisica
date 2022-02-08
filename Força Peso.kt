@@ -8,7 +8,7 @@ class `Fisica` {
     }
 
     fun impulso(forca: Float, tempoInicial: Byte, tempoFinal: Byte): Float {
-        return forca *tempoFinal - tempoInicial
+        return forca * tempoFinal - tempoInicial
     }
 
     //    A = F.Δt =
@@ -21,7 +21,7 @@ class `Fisica` {
     }
 
     fun MRU(posicaoInicial: Float, velocidadeDeDeslocamento: Float, tempoDoDeslocamento: Float): Float {
-        return posicaoInicial + velocidadeDeDeslocamento* tempoDoDeslocamento
+        return posicaoInicial + velocidadeDeDeslocamento * tempoDoDeslocamento
     }
     //S (t) = S0 + v . t, em que:
     //-> S0 é posição inicial, no instante t = 0;
